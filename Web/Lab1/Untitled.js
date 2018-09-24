@@ -24,6 +24,8 @@ alert(result);
 alert("Task #3");
 
 var variant = prompt("Write down your variant");
+var integer = parseInt(variant, 10);
+variant = integer;
 
 if (variant >=7)
   alert("It's right");
