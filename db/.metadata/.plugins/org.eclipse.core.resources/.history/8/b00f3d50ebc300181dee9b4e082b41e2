@@ -1,0 +1,135 @@
+
+#include<iostream>
+#include<conio.h>
+using namespace std;
+voidmain()
+{
+	//ЗАВДАННЯ №1
+	char               x0=0;
+	unsigned int       x1=7;
+	signed short int   x2=2;
+	unsigned int      x3=3;
+	signed short int   x4=4;
+	char               x5=5;
+	unsigned char      x6=6;
+	unsigned char      x7=7;
+	char               x8=8;
+	unsigned char      x9=9;
+	signed int        x10=10;
+	unsignedshort int x11=11;
+
+	/* 1 */
+	x1 = x1 - 0xFFFFFFFA;
+	unsignedchar _x1[sizeof(x1)];		//Початок виведення ВПК x1
+	cout<<"Sizeof(x1): "<<sizeof(x1)<<endl;
+	cout<<"In PC: ";
+	for(int i=0; i<sizeof(x1); i++)
+	{
+		_x1[i] = *((char*)&x1 + i);
+		printf("%02Lx", _x1[i]);
+	}
+	printf("\n\n");					//Кінець виведення ВПК x1
+
+	/* 2 */
+	x3 = 'a' + x0 - x2;
+	unsignedchar _x3[sizeof(x3)];
+//Початок виведення ВПК x3
+	cout<<"Sizeof(x3): "<<sizeof(x3)<<endl;
+	cout<<"In PC: ";
+	for(int i=0; i<sizeof(x3); i++)
+	{
+		_x3[i] = *((char*)&x3 + i);
+		printf("%02Lx", _x3[i]);
+	}
+	printf("\n\n");					//Кінець виведення ВПК x3
+
+	/* 3 */
+	x7 = x4 + x5 + x6 * 0.1;
+	unsignedchar _x7[sizeof(x7)];
+//Початок виведення ВПК x7
+	cout<<"Sizeof(x7): "<<sizeof(x7)<<endl;
+	cout<<"In PC: ";
+	for(int i=0; i<sizeof(x7); i++)
+	{
+		_x7[i] = *((char*)&x7 + i);
+		printf("%02Lx", _x7[i]);
+	}
+	printf("\n\n");					//Кінець виведення ВПК x7
+
+	/* 4 */
+	x8 = x9 + x10 - x11*10;
+	unsignedchar _x8[sizeof(x8)];
+//Початок виведення ВПК x8
+	cout<<"Sizeof(x8): "<<sizeof(x8)<<endl;
+	cout<<"In PC: ";
+	for(int i=0; i<sizeof(x8); i++)
+	{
+		_x8[i] = *((char*)&x8 + i);
+		printf("%02Lx", _x8[i]);
+	}
+	printf("\n\n");					//Кінець виведення ВПК x8
+
+	//ЗАВДАННЯ №2
+
+	int   x = 1810;
+	double y = -7.12;
+
+	printf("Dec:\tHex:\tSymbol:\n");
+	char  v0=*reinterpret_cast<char*> (&x) +3;
+	printf("%d   %x   %c \n", v0,v0,v0);
+
+	char  v4=static_cast<char>(x) + 22;
+	printf("%d   %x   %c \n", v4,v4,v4);
+
+	printf("\nHex:\tUns:\tDec:\n");
+	short w3 = *reinterpret_cast<short*>(&y)+1;
+	printf("%x      %u       %d \n", w3,w3,w3);
+
+
+	short w6=*(reinterpret_cast<short*>(&y)+3)+13;
+	printf("%x      %u       %d \n", w6,w6,w6);
+
+
+	unsignedchar _v0[sizeof(v0)];
+	cout<<"Sizeof(v0): "<<sizeof(v0)<<endl;
+	cout<<"In PC: ";
+	for(int i=0; i<sizeof(v0); i++)
+	{
+		_v0[i] = *((char*)&v0 + i);
+		printf("%02Lx", _v0[i]);
+	}
+	printf("\n");
+
+	unsignedchar _v4[sizeof(v4)];
+	cout<<"Sizeof(v4): "<<sizeof(v4)<<endl;
+	cout<<"In PC: ";
+	for(int i=0; i<sizeof(v4); i++)
+	{
+		_v4[i] = *((char*)&v4 + i);
+		printf("%02Lx", _v4[i]);
+	}
+	printf("\n");
+
+	unsignedchar _w3[sizeof(w3)];
+	cout<<"Sizeof(w3): "<<sizeof(w3)<<endl;
+	cout<<"In PC: ";
+	for(int i=0; i<sizeof(w3); i++)
+	{
+		_w3[i] = *((char*)&w3 + i);
+		printf("%02Lx", _w3[i]);
+	}
+	printf("\n");
+
+	unsignedchar _w6[sizeof(w6)];
+	cout<<"Sizeof(w6): "<<sizeof(w6)<<endl;
+	cout<<"In PC: ";
+	for(int i=0; i<sizeof(w6); i++)
+	{
+		_w6[i] = *((char*)&w6 + i);
+		printf("%02Lx", _w6[i]);
+	}
+	printf("\n");
+
+	getch();
+}
+

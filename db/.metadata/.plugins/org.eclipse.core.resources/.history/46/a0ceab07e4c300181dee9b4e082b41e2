@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<conio.h>
+#include<iostream>
+
+int main (void)
+{
+// створення та ініціалізація змінних
+int i;
+	int i1=70;
+	int i2=i1 * (–5);
+	float f1 = 117.116;
+	float f2 = -234.232;
+
+	unsignedchar *vi1=(unsignedchar *)(&i1);
+	for (int i=0;i<sizeof(i1);i++)
+//вивід змінних
+	   printf("%02X ",vi1[i]);
+	printf("\n");
+	unsignedchar *vi2=(unsignedchar *)(&i2);
+	for (i=0;i<sizeof(i2);i++)
+	   printf("%02X ",vi2[i]);
+	printf("\n");
+		unsignedchar *vf1=(unsignedchar *)(&f1);
+	for (i=0;i<sizeof(f1);i++)
+	   printf("%02X ",vf1[i]);
+	printf("\n");
+	unsignedchar *vf2=(unsignedchar *)(&f2);
+	for (i=0;i<sizeof(f2);i++)
+	   printf("%02X ",vf2[i]);
+	printf("\n");
+	getch();
+	return 0;
+}

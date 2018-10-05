@@ -1,0 +1,534 @@
+15:29:45 **** Build of configuration Debug for project Lab1 ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:2:9: fatal error: 'conio.h' file not found
+#include<conio.h>
+        ^~~~~~~~~
+1 error generated.
+make: *** [main.o] Error 1
+15:31:12 **** Incremental Build of configuration Debug for project Lab1 ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:2:9: fatal error: 'conio.h' file not found
+#include<conio.h>
+        ^~~~~~~~~
+1 error generated.
+make: *** [main.o] Error 1
+15:32:21 **** Incremental Build of configuration Debug for project Lab1 ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:2:9: fatal error: 'conio' file not found
+#include<conio>
+        ^~~~~~~
+1 error generated.
+make: *** [main.o] Error 1
+16:26:57 **** Incremental Build of configuration Debug for project Lab1 ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:3:9: fatal error: 'conio.h' file not found
+#include<conio.h>
+        ^~~~~~~~~
+1 error generated.
+make: *** [main.o] Error 1
+16:31:41 **** Incremental Build of configuration Debug for project Lab1 ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:5:1: error: 'main' must return 'int'
+void main()
+^~~~
+int
+../main.cpp:29:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _x1[i]);
+                        ~~~^~
+../main.cpp:29:14: note: did you mean to use 'll'?
+                printf("%02Lx", _x1[i]);
+                           ^
+                           ll
+../main.cpp:29:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _x1[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:42:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _x3[i]);
+                        ~~~^~
+../main.cpp:42:14: note: did you mean to use 'll'?
+                printf("%02Lx", _x3[i]);
+                           ^
+                           ll
+../main.cpp:42:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _x3[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:55:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _x7[i]);
+                        ~~~^~
+../main.cpp:55:14: note: did you mean to use 'll'?
+                printf("%02Lx", _x7[i]);
+                           ^
+                           ll
+../main.cpp:55:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _x7[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:68:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _x8[i]);
+                        ~~~^~
+../main.cpp:68:14: note: did you mean to use 'll'?
+                printf("%02Lx", _x8[i]);
+                           ^
+                           ll
+../main.cpp:68:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _x8[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:99:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _v0[i]);
+                        ~~~^~
+../main.cpp:99:14: note: did you mean to use 'll'?
+                printf("%02Lx", _v0[i]);
+                           ^
+                           ll
+../main.cpp:99:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _v0[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:109:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _v4[i]);
+                        ~~~^~
+../main.cpp:109:14: note: did you mean to use 'll'?
+                printf("%02Lx", _v4[i]);
+                           ^
+                           ll
+../main.cpp:109:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _v4[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:119:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _w3[i]);
+                        ~~~^~
+../main.cpp:119:14: note: did you mean to use 'll'?
+                printf("%02Lx", _w3[i]);
+                           ^
+                           ll
+../main.cpp:119:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _w3[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:129:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _w6[i]);
+                        ~~~^~
+../main.cpp:129:14: note: did you mean to use 'll'?
+                printf("%02Lx", _w6[i]);
+                           ^
+                           ll
+../main.cpp:129:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _w6[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:134:6: error: invalid operands to binary expression ('std::__1::istream' (aka 'basic_istream<char>') and 'int')
+        cin << i;
+        ~~~ ^  ~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:748:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, _CharT __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:755:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, char __cn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:788:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:795:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, signed char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:802:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, unsigned char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:809:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const _CharT* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:816:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const char* __strn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:862:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, const char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:869:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, const signed char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:877:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, const unsigned char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1044:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1052:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1061:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __ec)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1069:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, shared_ptr<_Yp> const& __p)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1076:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const bitset<_Size>& __x)
+^
+16 warnings and 2 errors generated.
+make: *** [main.o] Error 1
+16:32:21 **** Incremental Build of configuration Debug for project Lab1 ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:6:1: error: 'main' must return 'int'
+void main()
+^~~~
+int
+../main.cpp:30:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _x1[i]);
+                        ~~~^~
+../main.cpp:30:14: note: did you mean to use 'll'?
+                printf("%02Lx", _x1[i]);
+                           ^
+                           ll
+../main.cpp:30:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _x1[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:43:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _x3[i]);
+                        ~~~^~
+../main.cpp:43:14: note: did you mean to use 'll'?
+                printf("%02Lx", _x3[i]);
+                           ^
+                           ll
+../main.cpp:43:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _x3[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:56:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _x7[i]);
+                        ~~~^~
+../main.cpp:56:14: note: did you mean to use 'll'?
+                printf("%02Lx", _x7[i]);
+                           ^
+                           ll
+../main.cpp:56:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _x7[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:69:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _x8[i]);
+                        ~~~^~
+../main.cpp:69:14: note: did you mean to use 'll'?
+                printf("%02Lx", _x8[i]);
+                           ^
+                           ll
+../main.cpp:69:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _x8[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:100:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _v0[i]);
+                        ~~~^~
+../main.cpp:100:14: note: did you mean to use 'll'?
+                printf("%02Lx", _v0[i]);
+                           ^
+                           ll
+../main.cpp:100:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _v0[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:110:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _v4[i]);
+                        ~~~^~
+../main.cpp:110:14: note: did you mean to use 'll'?
+                printf("%02Lx", _v4[i]);
+                           ^
+                           ll
+../main.cpp:110:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _v4[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:120:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _w3[i]);
+                        ~~~^~
+../main.cpp:120:14: note: did you mean to use 'll'?
+                printf("%02Lx", _w3[i]);
+                           ^
+                           ll
+../main.cpp:120:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _w3[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:130:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _w6[i]);
+                        ~~~^~
+../main.cpp:130:14: note: did you mean to use 'll'?
+                printf("%02Lx", _w6[i]);
+                           ^
+                           ll
+../main.cpp:130:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _w6[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:135:6: error: invalid operands to binary expression ('std::__1::istream' (aka 'basic_istream<char>') and 'int')
+        cin << i;
+        ~~~ ^  ~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:748:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, _CharT __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:755:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, char __cn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:788:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:795:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, signed char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:802:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, unsigned char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:809:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const _CharT* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:816:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const char* __strn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:862:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, const char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:869:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, const signed char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:877:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, const unsigned char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1044:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1052:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1061:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __ec)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1069:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, shared_ptr<_Yp> const& __p)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1076:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const bitset<_Size>& __x)
+^
+16 warnings and 2 errors generated.
+make: *** [main.o] Error 1
+16:32:41 **** Incremental Build of configuration Debug for project Lab1 ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:6:1: error: 'main' must return 'int'
+void main()
+^~~~
+int
+../main.cpp:30:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _x1[i]);
+                        ~~~^~
+../main.cpp:30:14: note: did you mean to use 'll'?
+                printf("%02Lx", _x1[i]);
+                           ^
+                           ll
+../main.cpp:30:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _x1[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:43:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _x3[i]);
+                        ~~~^~
+../main.cpp:43:14: note: did you mean to use 'll'?
+                printf("%02Lx", _x3[i]);
+                           ^
+                           ll
+../main.cpp:43:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _x3[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:56:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _x7[i]);
+                        ~~~^~
+../main.cpp:56:14: note: did you mean to use 'll'?
+                printf("%02Lx", _x7[i]);
+                           ^
+                           ll
+../main.cpp:56:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _x7[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:69:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _x8[i]);
+                        ~~~^~
+../main.cpp:69:14: note: did you mean to use 'll'?
+                printf("%02Lx", _x8[i]);
+                           ^
+                           ll
+../main.cpp:69:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _x8[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:100:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _v0[i]);
+                        ~~~^~
+../main.cpp:100:14: note: did you mean to use 'll'?
+                printf("%02Lx", _v0[i]);
+                           ^
+                           ll
+../main.cpp:100:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _v0[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:110:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _v4[i]);
+                        ~~~^~
+../main.cpp:110:14: note: did you mean to use 'll'?
+                printf("%02Lx", _v4[i]);
+                           ^
+                           ll
+../main.cpp:110:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _v4[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:120:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _w3[i]);
+                        ~~~^~
+../main.cpp:120:14: note: did you mean to use 'll'?
+                printf("%02Lx", _w3[i]);
+                           ^
+                           ll
+../main.cpp:120:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _w3[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:130:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _w6[i]);
+                        ~~~^~
+../main.cpp:130:14: note: did you mean to use 'll'?
+                printf("%02Lx", _w6[i]);
+                           ^
+                           ll
+../main.cpp:130:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _w6[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+16 warnings and 1 error generated.
+make: *** [main.o] Error 1
+16:32:58 **** Incremental Build of configuration Debug for project Lab1 ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:30:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _x1[i]);
+                        ~~~^~
+../main.cpp:30:14: note: did you mean to use 'll'?
+                printf("%02Lx", _x1[i]);
+                           ^
+                           ll
+../main.cpp:30:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _x1[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:43:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _x3[i]);
+                        ~~~^~
+../main.cpp:43:14: note: did you mean to use 'll'?
+                printf("%02Lx", _x3[i]);
+                           ^
+                           ll
+../main.cpp:43:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _x3[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:56:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _x7[i]);
+                        ~~~^~
+../main.cpp:56:14: note: did you mean to use 'll'?
+                printf("%02Lx", _x7[i]);
+                           ^
+                           ll
+../main.cpp:56:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _x7[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:69:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _x8[i]);
+                        ~~~^~
+../main.cpp:69:14: note: did you mean to use 'll'?
+                printf("%02Lx", _x8[i]);
+                           ^
+                           ll
+../main.cpp:69:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _x8[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:100:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _v0[i]);
+                        ~~~^~
+../main.cpp:100:14: note: did you mean to use 'll'?
+                printf("%02Lx", _v0[i]);
+                           ^
+                           ll
+../main.cpp:100:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _v0[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:110:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _v4[i]);
+                        ~~~^~
+../main.cpp:110:14: note: did you mean to use 'll'?
+                printf("%02Lx", _v4[i]);
+                           ^
+                           ll
+../main.cpp:110:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _v4[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:120:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _w3[i]);
+                        ~~~^~
+../main.cpp:120:14: note: did you mean to use 'll'?
+                printf("%02Lx", _w3[i]);
+                           ^
+                           ll
+../main.cpp:120:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _w3[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+../main.cpp:130:14: warning: length modifier 'L' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+                printf("%02Lx", _w6[i]);
+                        ~~~^~
+../main.cpp:130:14: note: did you mean to use 'll'?
+                printf("%02Lx", _w6[i]);
+                           ^
+                           ll
+../main.cpp:130:19: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned char' [-Wformat]
+                printf("%02Lx", _w6[i]);
+                        ~~~~~   ^~~~~~
+                        %02hhx
+16 warnings generated.
+Finished building: ../main.cpp
+ 
+Building target: Lab1
+Invoking: Cross G++ Linker
+g++  -o "Lab1"  ./main.o   
+Finished building target: Lab1
+ 

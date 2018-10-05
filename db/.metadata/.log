@@ -1,0 +1,298 @@
+!SESSION 2018-09-29 15:25:36.498 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/koristuvac/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/koristuvac/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-09-29 15:25:54.545
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-09-29 15:25:56.273
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-09-29 15:25:56.273
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.linuxtools.changelog.core.preparechangelog,Prepare Changelog,
+		Prepares Changelog,
+		Category(org.eclipse.linuxtools.changelog,Changelog,Changelog key bindings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4d7c9b42,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ef28dc4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-09-29 15:26:47.039
+!MESSAGE Indexed 'Lab1' (0 sources, 0 headers) in 0.004 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-09-29 15:27:47.120
+!MESSAGE Error: Cannot run program "sgcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "sgcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:349)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:91)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:208)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:265)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:760)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:690)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:563)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:496)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-09-29 15:27:47.158
+!MESSAGE Error: Cannot run program "sg++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "sg++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:349)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:91)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:208)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:265)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:760)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:690)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:563)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:496)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-09-29 15:27:47.165
+!MESSAGE Error: Cannot run program "sgcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "sgcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:349)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:91)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:208)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:265)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:760)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:690)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:563)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:496)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-09-29 15:27:47.169
+!MESSAGE Error: Cannot run program "sg++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "sg++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:349)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:91)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:208)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:265)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:760)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:690)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:563)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:496)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-09-29 15:27:47.176
+!MESSAGE Error: Cannot run program "sgcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "sgcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:349)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:91)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:208)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:265)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:760)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:690)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:563)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:496)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-09-29 15:27:47.180
+!MESSAGE Error: Cannot run program "sg++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "sg++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:349)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:91)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:208)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:265)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:760)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:690)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:563)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:496)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-09-29 15:27:47.189
+!MESSAGE Error: Cannot run program "sgcc": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "sgcc": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:349)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:91)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:208)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:265)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:760)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:690)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:563)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:496)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-09-29 15:27:47.194
+!MESSAGE Error: Cannot run program "sg++": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "sg++": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:349)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:91)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:208)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:265)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:760)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:690)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:563)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:496)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-09-29 15:27:47.233
+!MESSAGE Indexed 'Lab11' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-29 15:28:06.068
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-29 15:28:06.069
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-29 15:28:06.070
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.launch 4 150 2018-09-29 16:31:42.645
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/Users/koristuvac/Documents/learne/db/Lab1/Debug/makefile": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:99)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:98)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.exec(LocalRunLaunchDelegate.java:281)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:108)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2018-09-29 16:31:42.645
+!MESSAGE Exec_tty error:Cannot run program "/Users/koristuvac/Documents/learne/db/Lab1/Debug/makefile": Unknown reason
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/Users/koristuvac/Documents/learne/db/Lab1/Debug/makefile": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:99)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:98)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.exec(LocalRunLaunchDelegate.java:281)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:108)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2018-09-29 16:32:21.764
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/Users/koristuvac/Documents/learne/db/Lab1/Debug/makefile": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:99)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:98)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.exec(LocalRunLaunchDelegate.java:281)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:108)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2018-09-29 16:32:21.764
+!MESSAGE Exec_tty error:Cannot run program "/Users/koristuvac/Documents/learne/db/Lab1/Debug/makefile": Unknown reason
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/Users/koristuvac/Documents/learne/db/Lab1/Debug/makefile": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:99)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:98)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.exec(LocalRunLaunchDelegate.java:281)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:108)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2018-09-29 16:33:00.511
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/Users/koristuvac/Documents/learne/db/Lab1/Debug/makefile": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:99)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:98)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.exec(LocalRunLaunchDelegate.java:281)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:108)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2018-09-29 16:33:00.511
+!MESSAGE Exec_tty error:Cannot run program "/Users/koristuvac/Documents/learne/db/Lab1/Debug/makefile": Unknown reason
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/Users/koristuvac/Documents/learne/db/Lab1/Debug/makefile": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:99)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:98)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.exec(LocalRunLaunchDelegate.java:281)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:108)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:76)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SESSION 2018-09-29 16:41:02.707 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/koristuvac/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/koristuvac/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-09-29 16:41:09.368
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-09-29 16:41:10.790
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-09-29 16:41:10.790
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.linuxtools.changelog.core.preparechangelog,Prepare Changelog,
+		Prepares Changelog,
+		Category(org.eclipse.linuxtools.changelog,Changelog,Changelog key bindings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21948bd1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22617270,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
